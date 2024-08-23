@@ -5,11 +5,6 @@
  * @since 2.1.0
  */
 
-// if uninstall.php is not called by WordPress, die.
-if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	die;
-}
-
 
 /**
  * Runs upon the uninstall hook.
